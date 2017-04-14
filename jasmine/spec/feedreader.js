@@ -99,6 +99,9 @@ $(function () {
 
         it('loadFeed function is called and completes its work', function (done) {
             expect($('.feed .entry').length).toBeGreaterThan(0);
+
+            // Invoke done callback function
+            done();
         });
 
     });
